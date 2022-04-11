@@ -9,7 +9,9 @@ import { Component, OnInit } from '@angular/core';
 export class QuoteComponent implements OnInit {
 
   constructor() { }
-
+getQuote(){
+  
+}
   ngOnInit(): void {
   }
 

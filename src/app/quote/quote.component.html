@@ -7,6 +7,9 @@
       <div class="generator">
         <button type="button" (click)="getQuote()" class="btn btn-dark">Get Random Quote</button>
       </div>
+      <div [hidden]="isShowDiv" class="col-lg-12">
+          <app-quote-detail></app-quote-detail>
+      </div>
     </div>
   </div>
 </div>

@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-// import { Quote } from '../quote';
 
 @Component({
   selector: 'app-quote',
@@ -9,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 export class QuoteComponent implements OnInit {
 
   constructor() { }
-getQuote(){
-  
-}
+
+  isShowDiv = true;
+  getQuote() {
+    this.isShowDiv = !this.isShowDiv;
+  }
+
   ngOnInit(): void {
   }
 

@@ -1,0 +1,20 @@
+.quote-container {
+    padding-top: 7em;
+}
+
+.welcome {
+    background-color: rgb(235, 232, 232);
+    padding: 3em;
+    text-align: center;
+    border-radius: 1em;
+    margin-bottom: 6em;
+}
+
+.generator {
+    text-align: center;
+}
+
+button:hover {
+    color: black;
+    background: white;
+}

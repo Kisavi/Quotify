@@ -26,6 +26,8 @@ export class QuoteDetailComponent implements OnInit {
     this.http.get<ApiResponse>("http://quotes.stormconsultancy.co.uk/random.json").subscribe(data => {
       // only executed when the request to the API is succesful.
       this.quote = new Quote(data.author, data.quote)
+    }, err=> { //executes when an error occurs
+      this.quote = new Quote("Winston Churchill","Never ever give up!")
     })
   }
 

@@ -2,8 +2,12 @@
   <div class="container">
     <div class="row">
       <div class="welcome col-lg-12">
-          <h3>Your random quotes will be displayed here</h3>
-          <button type="button" class="btn btn-dark">Get Quote</button>
+          <!-- <h4>Your random quotes will be displayed here</h4> -->
+          <button (click)="showQuote()" type="button" class="btn btn-dark mb-4">Open</button>
+          <blockquote class="blockquote text-center">
+            <p class="mb-3">{{quote.quote}}</p>
+            <footer class="blockquote-footer"><cite>{{quote.author}}</cite></footer>
+          </blockquote>
       </div>
     </div>
   </div>

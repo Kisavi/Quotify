@@ -1,4 +1,6 @@
 .quote-container {
     text-align: center;
     margin-top: 3em;
+    background-color: rgb(241, 241, 241);
+    padding: 2em;
 }

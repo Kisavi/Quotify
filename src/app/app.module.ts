@@ -9,8 +9,8 @@ import { HeaderComponent } from './header/header.component';
 import { QuoteComponent } from './quote/quote.component';
 import { QuoteDetailComponent } from './quote-detail/quote-detail.component';
 // progress bar
-import { NgProgressModule } from '@ngx-progressbar/core';
-import { NgProgressHttpClientModule } from '@ngx-progressbar/http-client';
+// import { NgProgressModule } from '@ngx-progressbar/core';
+// import { NgProgressHttpClientModule } from '@ngx-progressbar/http-client';
 
 @NgModule({
   declarations: [
@@ -25,8 +25,8 @@ import { NgProgressHttpClientModule } from '@ngx-progressbar/http-client';
     //here too                                        
     HttpClientModule,
     //progress bar
-    NgProgressModule,
-    NgProgressHttpClientModule
+    // NgProgressModule,
+    // NgProgressHttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

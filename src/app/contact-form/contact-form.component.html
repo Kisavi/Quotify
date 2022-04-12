@@ -1,0 +1,27 @@
+<div id="contact" class="feedback">
+    <div class="container feedbackForm">
+          <form (ngSubmit)="submitForm()">
+            <div class="feedback-form">
+              <h6 class="mb-5">Share any messeage or feedback you have with us.</h6>
+              <div class="mb-3">
+                <label class="form-label">Email address</label>
+                <input type="email" class="form-control" placeholder="name@example.com" name="email" [(ngModel)]="email"
+                  required>
+                  <div class="help is-error">
+                    <p>Your email is required</p>
+                  </div>
+              </div>
+              <div class="mb-4">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="6" placeholder="Your message..." name="message" [(ngModel)]="email"
+                  required></textarea>
+                  <!-- <div [hidden]="message.valid || message.pristine" class="alert alert-danger">
+                    <p>Your name is required</p>
+                  </div> -->
+              </div>
+              <button type="button" (click)="submitForm()" class="btn btn-dark">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+  

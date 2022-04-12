@@ -10,6 +10,7 @@ import { HeaderComponent } from './header/header.component';
 import { QuoteComponent } from './quote/quote.component';
 import { QuoteDetailComponent } from './quote-detail/quote-detail.component';
 import { ContactFormComponent } from './contact-form/contact-form.component';
+import { ErrorPageComponent } from './error-page/error-page.component';
 // progress bar
 // import { NgProgressModule } from '@ngx-progressbar/core';
 // import { NgProgressHttpClientModule } from '@ngx-progressbar/http-client';
@@ -21,6 +22,7 @@ import { ContactFormComponent } from './contact-form/contact-form.component';
     QuoteComponent,
     QuoteDetailComponent,
     ContactFormComponent,
+    ErrorPageComponent,
   ],
   imports: [
     BrowserModule,

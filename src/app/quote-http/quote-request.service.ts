@@ -24,6 +24,7 @@ export class QuoteRequestService {
       this.http.get<ApiResponse>("http://quotes.stormconsultancy.co.uk/random.json").toPromise().then((response: any) => {
         this.quote.quote = response.quote
         this.quote.author = response.author
+        
 
         resolve(response)
       },

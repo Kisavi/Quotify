@@ -7,7 +7,7 @@ import { ErrorPageComponent } from './error-page/error-page.component';
 const routes: Routes = [
   { path: '', component: QuoteComponent},
   { path: 'contact-form', component: ContactFormComponent},
-  { path: '**', component:ErrorPageComponent },
+  { path: '**', component: ErrorPageComponent },
 ];
 
 @NgModule({
